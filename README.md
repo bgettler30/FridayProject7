@@ -46,3 +46,18 @@ If the guess is too low, print "Too low! Try again."
 If the guess is too high, print "Too high! Try again."
 If the guess is correct, print "Congratulations! You've guessed the number!" and exit the loop.
 Farewell message is displayed when the game ends.
+
+project4. Quizbowl
+Dictionary Structure:
+
+The dictionary holds questions as keys and their correct answers as values.
+For Loop:
+
+The loop iterates over each question-answer pair.
+It prints the question, collects the user’s answer, and checks if it's correct.
+Score Tracking:
+
+A counter tracks how many correct answers the user provides.
+Feedback:
+
+The user receives feedback immediately after each answer.
