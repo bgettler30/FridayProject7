@@ -85,5 +85,19 @@ ANSI Escape Codes:
 These codes are used to change the color of text in the terminal.
 Example: \033[91m is the code for red text, and \033[0m resets the color back to normal.
 
+Project 6: Bank Class
+
+Class Definition**:
+   A BankAccount class with attributes for account_number and balance
+ Methods
+  deposit(amount)`: Adds money to the account.
+  withdraw(amount)`: Withdraws money from the account if there are sufficient funds.
+  check_balance()`: Displays the current balance.
+ Main Program Logic:
+   Uses an indefinite loop to ask the user if they want to deposit, withdraw, or check their balance.
+   The loop continues until the user exits.
+
+Sample Execution:
+
 
 
