@@ -61,3 +61,27 @@ A counter tracks how many correct answers the user provides.
 Feedback:
 
 The user receives feedback immediately after each answer.
+
+project5. Colortext
+Define five functions:
+
+Each function takes a string parameter (text) and returns the text wrapped in ANSI escape codes for specific colors.
+Example functions:
+redText(): Returns the text formatted in red.
+blueText(): Returns the text formatted in blue.
+greenText(): Returns the text formatted in green.
+yellowText(): Returns the text formatted in yellow.
+brownText(): Returns the text formatted in brown.
+Main Program Logic:
+
+Calls each of the five functions to display sample text in the corresponding color.
+User Input Section:
+
+Prompts the user to choose a color and enter a string of text.
+Displays the text in the chosen color using the appropriate function.
+If the user enters an invalid color, the text is displayed without color.
+ANSI Escape Codes:
+
+These codes are used to change the color of text in the terminal.
+Example: \033[91m is the code for red text, and \033[0m resets the color back to normal.
+
